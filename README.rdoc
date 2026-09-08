@@ -1,6 +1,10 @@
 = ruby-audio-heroku-gem
 
-I simply had merged the DEV Branch into the MASTER to get it working properly
+This is the Ragnarson fork of
+musicglue/ruby-audio-heroku-gem[https://github.com/musicglue/ruby-audio-heroku-gem]
+(itself a fork of klangfeld/ruby-audio-heroku-gem). It exists to keep the gem
+installable on modern RubyGems: version 1.7.0 drops the +has_rdoc+ gemspec
+attribute that RubyGems 4 removed.
 
 
 
@@ -18,7 +22,7 @@ Khurramazaman have made Stephen Augenstein's gem work on heroku.
 
 == Installation
 
-gem 'ruby-audio-heroku', git: "git://github.com/mediatainment/ruby-audio-heroku.git"
+  gem 'ruby-audio-heroku-gem', git: 'https://github.com/Ragnarson/ruby-audio-heroku-gem.git', tag: 'v1.7.0'
 
 === Prerequisites
 
